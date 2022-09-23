@@ -1,0 +1,36 @@
+.body{
+    background-color: black;
+    
+}
+
+
+.banner{
+    height: 1000px;  
+    background-image: url(./think.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.banner h1{
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: underline;
+    animation: letter 4s linear infinite;
+    transition: all 500ms;
+    
+}
+
+.banner p{
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: line-through;
+}
+
+@keyframes letter {
+    from {
+        letter-spacing: 1px;
+    }
+    to {
+        letter-spacing: 8px;
+    }
+}
